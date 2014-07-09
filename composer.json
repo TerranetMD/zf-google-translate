@@ -1,0 +1,22 @@
+{
+    "name": "TerranetMD/zf-google-translate",
+    "description": "Google Translate service",
+    "type": "library",
+    "keywords": [
+        "terranet",
+        "service",
+		"google-translate",
+        "zf"
+    ],
+    "homepage": "http://github.com/TerranetMD/zf-google-translate",
+    "license": "BSD-3-Clause",
+    "require": {
+        "php": ">=5.3.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "": "src"
+        }
+    },
+    "include-path": ["src/"]
+}
